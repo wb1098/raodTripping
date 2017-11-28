@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://unpkg.com/vue"></script>
+    <link href="/css/alaska.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <title>The Alaska Page</title>
+</head>
+
+<body>
+    <header></header>
+    <h1 id="tripLoc">{{message}}</h1>
+
+    <div id="addLinks">
+        <triplinker v-for="link in linkList" :link="link" :key="link.id"></triplinker>
+    </div>
+
+    <img id="alaska-Img" :src="url">
+
+    <footer></footer>
+</body>
+
+</html>
+<script type="text/javascript" src="/js/alaska.js"></script>

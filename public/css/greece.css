@@ -1,0 +1,12 @@
+body {
+    background-color: darkorchid;
+}
+
+
+button {
+    height: 30px;
+    background-color: deepskyblue;
+    margin: 5px;
+    font-size: 16px;
+    border: 2px solid darkblue;
+}

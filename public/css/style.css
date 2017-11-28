@@ -1,0 +1,121 @@
+html {
+    min-width: 375px;
+}
+
+body {
+    background-color: dodgerblue;
+    font-family: fantasy;
+    min-width: 375px;
+}
+
+header {
+    height: 100px;
+    background-color: chartreuse;
+}
+
+button {
+    height: 30px;
+    background-color: coral;
+}
+
+.heroText {
+    background-color: white;
+    border: 3px solid #09B6C4;
+    box-shadow: 6px 6px 6px #0B31D1;
+    width: 90%;
+    padding: 12px;
+    font-size: 18px;
+    margin: 1px auto;
+    display: flex;
+}
+
+.validator-hdr {
+    margin: 5px 10px 10px 15px;
+    border-bottom: 3px solid #0C37C7;
+    width: 94vw;
+    display: inline-flex;
+}
+
+.landingPageHero {
+    flex: 1 0 auto;
+    margin: 5 auto;
+    position: relative;
+}
+
+.formHolder2 {
+    background-color: #13A9BC;
+    border: 3px solid #0B33DB;
+    border-radius: 12px;
+    width: 90%;
+    font-size: 14px;
+    padding: 5px;
+    margin: 15px auto;
+    display: flex;
+}
+
+
+.productImageDisplay img {
+    width: 200px;
+    margin-right: 10px;
+    border-radius: 6px;
+
+}
+
+.validatorText {
+    width: 65%;
+}
+
+.product-Desc-Display {
+    font-size: 18px;
+    padding: 3px;
+}
+
+.salesTag {
+    margin-left: 10px;
+    font-size: 24px;
+    color: yellow;
+
+}
+
+
+#cargoForm {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 6px;
+    width: 70%;
+}
+
+.home-btn {
+    font-size: 14px;
+    display: flex;
+    height: 60px;
+    margin: 15px;
+    background-color: #13A9BC;
+    border: 3px solid #0B33DB;
+    color: #CFF52F;
+}
+
+.add-btn {
+    background-color: blue;
+    color: white;
+}
+
+.remove-btn {
+    background-color: red;
+}
+
+
+
+footer {
+    background-color: #0B31D1;
+    height: 40px;
+    width: 94vw;
+    text-align: center;
+    color: #CFF52F;
+    padding-top: 15px;
+    border: 3px solid #13A9BC;
+}
+
+.updateDisplayFont {
+    color: red;
+}
